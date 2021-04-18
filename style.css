@@ -26,12 +26,36 @@ margin-left: 300px;
     font-family: bday;
     display: inline-block;
 }
+h6{
+color: #fff;
+margin-top: 80px;
+text-align: center;
+background: linear-gradient(180deg, #0751f0 0%, #b913da 110%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+cursor: pointer;
+font-size: 40px;
+font-family: bday
+}
+h3{
+    color: #fff;
+margin-top: 80px;
+text-align: center;
+background: linear-gradient(180deg, #f0072e 0%, #9e5e4a 110%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+cursor: pointer;
+font-size: 80px;
+font-family: bday
+
+}
 .name:hover{
 -webkit-box-reflect: below -8px -webkit-gradient(linear, right top, right bottom, from(transparent),
  color-stop(85%, transparent), to(rgba(42, 99, 99, 1))) ;
 }
 .wrapper{
 position: relative;
+align-items: center;
 width: 320px;
 margin: 150px auto;
 perspective: 1000px;
